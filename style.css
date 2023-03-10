@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: fixed;
+    background-color: rgb(148, 34, 34);
+    height: 60px;
+    top: 0;
+    width: 99%;
+    z-index: 2;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+nav {
+    display: inline-block;
+    height: inherit;
+    position: absolute;
+    margin-top: 0px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: inline-block;
+    height: 24px;
+    font-size: 18px;
+    color: rgb(201, 201, 198);
+    padding: 18px 30px;
+}
+
+.menu:hover {
+    background-color: rgb(115, 36, 36);
+}
+
+.headline {
+    display: inline-block;
+    margin: 18px;
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(241, 241, 241);
+}
+
+.content {
+    padding-top: 60px;
+    background-color: rgb(224, 219, 219);
+    width: 100%;
+}
+
+.box-one {
+    display: inline-block;
+    width: 600px;
+    margin-left: 0px;
+}
+
+.box-two {
+    display: inline-block;
+    position: absolute;
+    height: 450px;
+    width: 250px;
+    margin: 25px 25px;
+    background-color: rgb(200, 198, 198);
+    font-size: 12px;
+    z-index: 1;
+}
+
+.box-two img {
+    width: 210px;
+    margin: 20px;
+}
+
+.box-two table {
+    margin: auto;
+}
+
+.font-w {
+    width: 60px;
+    font-weight: 900;
+}
+
+.box-three-list {
+    display: block;
+    height: 210px;
+    padding: 12px 0px 12px 21.85px;
+    border: 2px solid gray;
+
+}
+
+.box-three img {
+    width: 120px;
+    height: 180px;
+}
+
+.list {
+    display: inline-block;
+    margin-right: 21.85px;
+    font-size: 13px;
+    text-align: center;
+}
